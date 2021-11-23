@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Lobster+Two|Open+Sans');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(176, 198, 156)
+}
+
+.head{
+    width:100%;
+    border: 1px solid #2F4103;
+    background: #00AE20;
+   
+    
+
+}
+
+.head .navbar-nav > li > a {
+    font-size:14px;
+    color:#F4F4F4;
+}
+
+
+.head .navbar-brand {
+    color: #fff;
+    font-family: 'Baloo Bhaijaan', cursive;
+    font-size: 32px;
+   /* font-family: 'Lobster Two', cursive;*/
+}
+
+ .head .navbar-nav > .active > a, 
+
+ .head .navbar-nav > .active > a:focus {
+    color: #4FFF00;
+    background-color: #5C8004;
+}
+
+.head .navbar-nav > .active > a:hover, .head .navbar-nav > li > a:hover,.head .navbar-nav > .open > a:focus {
+    color: #F4F4F4;
+    background-color: #557605;
+    font-weight: 800;
+}
+
+.head .dropdown-menu {
+    background-color: #5C8004;
+    color: #F4F4F4;
+}    
+
+.head .dropdown-header {
+    
+    font-size: 18px;
+ 
+    color: #F4F4F4;
+    border-bottom: #59FF00 dashed 1px;
+    
+
+
+}
+
+.head .dropdown-menu .divider {
+  
+    background-color: #59FF00;
+}
+
+
+.head .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #4FFF00;
+    text-decoration: none;
+    background-color: #557605;
+}
+
+.head .dropdown-menu > li > a {
+     color: #F4F4F4;
+}
+
+.head.navbar{
+    margin-bottom:0;
+    z-index: 999;
+}
+
+.affix {
+     top: 0;
+}
+
+.top-app{
+  
+   background: #09A909 url("../images/jatiluwih.jpg") no-repeat fixed top; 
+   color:#fff;
+   height:300px;
+   text-align: center;
+}
+
+.info-box{
+   margin:18px 8px;
+   padding: 20px 12px;
+   background-color: rgb(217, 217, 204);
+   border-radius: 8px;
+
+}
+
+@media screen and (min-width: 640px) {
+
+.top-app h1 {
+ font-family: 'Lobster Two', cursive;
+ font-size:62px;
+}
+
+.top-app h3{
+    font-size:42px; 
+}
+
+}
+
+@media screen and (max-width: 639px) {
+    
+    .top-app h1 {
+     font-family: 'Lobster Two', cursive;
+     font-size:32px;
+    }
+    
+    .top-app h3{
+        font-size:20px; 
+    }
+    
+    }
